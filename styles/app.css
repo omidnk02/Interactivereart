@@ -255,7 +255,7 @@ body {
 }
 /* header bottom */
 .header-bottom {
-  margin-top: 6rem;
+  margin-top: 5.5rem;
 }
 .header-content__wrapper {
   max-width: 28rem;
@@ -300,10 +300,10 @@ body {
 .header-content__image {
   width: 100%;
 }
-/* start main */
+/* main-works */
 .work {
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 6rem;
 }
 .works__text {
   color: #6c7890;
@@ -312,6 +312,8 @@ body {
 .works__title {
   color: #081d43;
   margin-top: 0.8rem;
+  font-family: "TTnorms medium";
+  font-weight: normal;
 }
 .works-content {
   margin-top: 3rem;
@@ -333,6 +335,65 @@ body {
 .works-image__image {
   width: 100%;
 }
+/* main-comments */
+
+.person-comments {
+  background-color: #2f5bea;
+  padding: 2rem 0;
+  margin: 4rem 0;
+  color: white;
+}
+.comments-container {
+  max-width: 70rem;
+}
+.person-comments .container {
+  display: flex;
+  justify-content: center;
+}
+.person-comments__title {
+  text-align: center;
+  font-family: "TTnorms medium";
+  font-weight: normal;
+}
+.person-comments__text {
+  text-align: center;
+}
+.comments {
+  display: flex;
+  justify-content: center;
+  column-gap: 1.5rem;
+  margin: 3.5rem 0;
+}
+.comment {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.1rem;
+  flex: 1;
+  min-height: 18rem;
+}
+.comment__content {
+  text-align: left;
+  padding: 0.8rem 1.2rem;
+}
+.comment__body {
+  font-family: "Times Roman Italic";
+  color: #7e8085;
+  line-height: 1.5rem;
+  margin: 0;
+}
+.comment__info {
+  display: flex;
+  border-top: 1px solid #e8ebef;
+  padding: 0.6rem 1.2rem;
+  align-items: center;
+}
+.comment__person {
+  color: #000000;
+  margin: 0 0 0 0.5rem;
+}
+
 /* Project Responsive */
 
 @media only screen and (max-width: 1200px) {
