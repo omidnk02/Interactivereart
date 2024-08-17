@@ -393,7 +393,16 @@ body {
   color: #000000;
   margin: 0 0 0 0.5rem;
 }
+.companies{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 6rem 0 2rem;
+}
+.companies__img{
 
+}
 /* Project Responsive */
 
 @media only screen and (max-width: 1200px) {
