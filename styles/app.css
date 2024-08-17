@@ -414,6 +414,9 @@ body {
   flex-wrap: wrap;
   margin: 5rem 0;
 }
+.companies img {
+  cursor: pointer;
+}
 /* portfolio */
 .portfolio {
   text-align: center;
@@ -434,6 +437,7 @@ body {
   border-radius: 0.3rem;
   overflow: hidden;
   object-fit: cover;
+  cursor: pointer;
 }
 /* footer */
 
@@ -475,6 +479,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 0.12rem;
+  cursor: pointer;
 }
 
 .copyright__wrapper {
