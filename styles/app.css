@@ -466,6 +466,17 @@ body {
   border-radius: 0.3rem;
 }
 
+.copyright__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+.copyright__txt {
+  color: #6c7890;
+  font-size: 0.8rem;
+}
+
 /* Project Responsive */
 
 @media only screen and (max-width: 1200px) {
