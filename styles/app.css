@@ -305,15 +305,21 @@ body {
   text-align: center;
   margin-top: 6rem;
 }
-.works__text {
+.works__text,
+.portfolio__text {
   color: #6c7890;
   margin-bottom: 0;
+  text-transform: uppercase;
+  text-align: center;
 }
-.works__title {
+.works__title,
+.portfolio__title {
   color: #081d43;
   margin-top: 0.8rem;
   font-family: "TTnorms medium";
   font-weight: normal;
+  text-transform: capitalize;
+  text-align: center;
 }
 .works-content {
   margin-top: 3rem;
@@ -393,16 +399,35 @@ body {
   color: #000000;
   margin: 0 0 0 0.5rem;
 }
-.companies{
+.companies {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   margin: 6rem 0 2rem;
 }
-.companies__img{
-
+/* portfolio */
+.portfolio {
+  text-align: center;
+  padding: 2rem 0;
 }
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 1.2rem;
+  margin-top: 3rem;
+}
+.portfolio__item {
+  flex-basis: 25rem;
+}
+.portfolio__img {
+  width: 100%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+/* footer */
+
 /* Project Responsive */
 
 @media only screen and (max-width: 1200px) {
