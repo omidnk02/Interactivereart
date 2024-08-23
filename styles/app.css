@@ -4,10 +4,12 @@
   font-family: "TTNorms";
   src: url("../fonts/TTNorms-Regular.otf") format("openType");
 }
+
 @font-face {
   font-family: "TTNorms Medium";
   src: url("../fonts/TTNorms-Medium.otf") format("openType");
 }
+
 @font-face {
   font-family: "TTNorms Light";
   src: url("../fonts/TTNorms-Light.otf") format("openType");
@@ -17,6 +19,8 @@
   font-family: "Times Roman Italic";
   src: url("../fonts/Times-new-roman-italic.ttf") format("truetype");
 }
+
+
 
 /* Normalize Css */
 
@@ -253,6 +257,9 @@ body {
   background-color: #0050cb;
   padding: 0.8rem 1.5rem;
   border-radius: 0.3rem;
+}
+.header__icon {
+  display: none;
 }
 /* header bottom */
 .header-bottom {
@@ -497,13 +504,39 @@ body {
 
 @media only screen and (max-width: 1200px) {
   .container {
-    max-width: 960px;
+    max-width: 1248px;
   }
 }
 
 @media only screen and (max-width: 992px) {
   .container {
     max-width: 720px;
+  }
+  .header__link {
+    display: none;
+  }
+  .header__icon {
+    display: block;
+  }
+  .menu {
+    position: fixed;
+    top: 0;
+    left: -256px;
+    bottom: 0;
+    background: white;
+    width: 16rem;
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+  .menu__link {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+  }
+  .header-content{
+    flex-direction: column-reverse;
+  }
+  .header-bottom{
+    margin-top: 3rem;
   }
 }
 
